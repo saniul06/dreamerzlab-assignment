@@ -20,13 +20,13 @@ const Map = () => {
     });
     return (
         <ReactMapGL {...viewport} width="100vw" height="100vh" onViewportChange={setViewport}
-            mapboxApiAccessToken="pk.eyJ1Ijoic2t5NjU1NSIsImEiOiJja3N1NXc3aDgxY2Z6Mm5sZXR2ZzVmamZ4In0.FCHxeK6_xg_eTRwcWO7Xzg"
-            mapStyle='mapbox://styles/sky6555/cksueksix2tsm18o2ybwj1lli'
+            mapboxApiAccessToken="pk.eyJ1Ijoia2t1cnR6IiwiYSI6ImNrOWE4djN1eDAyd3UzZXBuYzF1OWtjYTQifQ.obmfLm5bA5yqr
+            ac86Fw8GQ"
         >
             <Source id="my-data" type="geojson" data={geojson}>
-                <Layer {...layerStyle} />
-            </Source>
-        </ReactMapGL>
+                < Layer {...layerStyle} />
+            </Source >
+        </ReactMapGL >
     );
 }
 
