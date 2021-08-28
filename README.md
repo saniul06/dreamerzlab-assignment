@@ -7,3 +7,9 @@ This application is using react-map-gl
 ```
 npm i
 ```
+
+### Start Server
+
+```
+npm start
+```
