@@ -2,7 +2,7 @@
 
 This application is using react-map-gl
 
-### Install Dependencies (Frontend)
+### Install Dependencies
 
 ```
 npm i
