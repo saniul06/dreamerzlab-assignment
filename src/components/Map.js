@@ -20,7 +20,7 @@ const Map = () => {
     });
     return (
         <ReactMapGL {...viewport} width="100vw" height="100vh" onViewportChange={setViewport}
-            mapboxApiAccessToken="pk.eyJ1Ijoic2t5NjU1NSIsImEiOiJja3N2MzF6NHgwNWgwMndscW51amYwdGM3In0.yrSGQcuC6lIA4Lv--Yy6sw"
+            mapboxApiAccessToken="pk.eyJ1Ijoic2t5NjU1NSIsImEiOiJja3N2MzU5OG0xbWw2Mnd0ZjR1a25rYWU5In0.FSwtcH3StoRTJnFDlHIv7w"
         >
             <Source id="my-data" type="geojson" data={geojson}>
                 < Layer {...layerStyle} />
