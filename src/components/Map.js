@@ -18,7 +18,6 @@ const Map = () => {
         zoom: 3
 
     });
-    console.log('map key ::::::::::', process.env.REACT_APP_MAP_API_KEY)
     return (
         <ReactMapGL {...viewport} width="100vw" height="100vh" onViewportChange={setViewport}
             mapboxApiAccessToken={process.env.REACT_APP_MAP_API_KEY}
