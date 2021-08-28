@@ -7,7 +7,7 @@ const layerStyle = {
     id: 'point',
     type: 'line',
     paint: {
-        'line-color': 'purple',
+        'line-color': 'SeaShell',
 
     },
 };
